@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container{
+      background-color: hsl(217, 54%, 11%);
+      border-radius: 15px;
+      font-size: 15px;
+      font-family: "Outfit", sans-serif;
+    }.image1{
+      width: 33px;
+      height: 33px;
+    }
+   
+    .item{
+      background-color: hsl(216, 50%, 16%);
+    }
+    .text-2{
+      color: hsl(215, 51%, 70%);
+    }
+    .text-1{
+      color: hsl(178, 100%, 50%);
+    }
+  </style>
+</head>
+<body class="container d-flex justify-content-center align-items-center flex-column pt-5 w-50 h-100">
+ 
+ <div class="container d-flex justify-content-around align-items-center flex-column w-50 h-100 card item">
+ 
+ <div class="box">
+  <img src="./images/image-equilibrium.jpg" width="300px" height="300px" class="rounded pt-4" alt="">
+  <p class="text-white fw-bold " >Equilibrium #3429</p>
+  <p class="text-2">Our Equilibrium collection promotes <br/> balance and calm.</p>
+
+  <div class="eth-details d-flex justify-content-evenly align-content-center gap-2">
+    <span class="text-1 fw-bolder d-flex justify-content-center align-items-center gap-2"><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg> 0.041 ETH</span>
+  <span class="text-2 px-5 "><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>3 days left</span>
+  </div> 
+  <br>
+  <br>
+  
+  <div class="d-flex"> <div class="image1 d-flex justify-content-center align-items-center rounded-circle bg-white"><img src="./images/image-avatar.png" class="" width="30px" height="30px" alt=""></div><span class="text-2 ">Creation of</span> <span class="text-white ">Jules Wyvern</span></div>
+  <br>
+  <br> 
+ </div>
+ </div>
+ 
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">TromphiesGIG</a>.
+  </div>
+</body>
+</html>
